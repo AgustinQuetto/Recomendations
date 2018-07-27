@@ -1,6 +1,6 @@
 $(window).ready(() => {
 	var left, width, cont = "#q-cont";
-	$('span').click(function(){
+	$('span').click(() => {
 		$(this).css("background","#5a6");
 		$('.re').css("background","#d90");
 		next();
